@@ -8,6 +8,8 @@ The project is starknet foundry proyect, so the src folder holds the contract's 
 
 To implement the smart contract's code locally follow the steps in the snfoundry website, and for the frontend create a nextjs app using the code in the frontend folder.
 
+If you want to test locally, then you should deploy new contracts. In the Zamna Factory you should allow a deployer address (function: allowInvariantsDeployer), so you can deploy an invariants contract after deployment of the contracts, you should update the contracts addresses in the frontend app so the frontend can use this new contracts to update the interface.
+
 This are the address of the contracts deployed on sepolia starknet showed in the Demo Video:
 
 ```
